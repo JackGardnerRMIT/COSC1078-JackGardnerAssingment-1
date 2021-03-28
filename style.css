@@ -28,30 +28,37 @@ html{
     float: left;
     text-align: left; 
     width: 45%; 
-    height: 600px;
     padding: 10px 10px;
     margin: 10px;
-    border: 3px solid #2196f3; 
+    border-top: 3px solid #2196f3;
+    border-left: 3px solid #2196f3;
+    border-right: 3px solid #2196f3;
+    border-bottom: 3px solid #2196f3;
   } 
 
   #leftbox2{ 
     float: left;
     text-align: left; 
     width: 45%; 
-    height: 600px;
     padding: 10px 10px;
     margin: 10px;
-    border: 3px solid #2196f3; 
+    border-top: 3px solid #2196f3;
+    border-left: 3px solid #2196f3;
+    border-right: 3px solid #2196f3;
+    border-bottom: 3px solid #2196f3;
   } 
 
   #leftbox3{ 
     float: left;
     text-align: left; 
     width: 45%; 
-    height: 975px;
     padding: 10px 10px;
     margin: 10px;
-    border: 3px solid #2196f3; 
+    border-top: 3px solid #2196f3;
+    border-left: 3px solid #2196f3;
+    border-right: 3px solid #2196f3;
+    border-bottom: 3px solid #2196f3; 
+    
   }
 
   .floating-left{
@@ -65,6 +72,18 @@ html{
     width: 45%;
     padding: 10px 10px;
     margin: 10px;
+  }
+
+  .photo{
+    width: 45%;
+  }
+
+  .center-fit{
+    max-width: 45%;
+  }
+
+  .center-fit1{
+    max-width: 95%;
   }
   
   /* 
@@ -108,7 +127,7 @@ html{
     float: center;
     color: #f2f2f2;
     text-align: center;
-    padding: 45px 45px;
+    padding: 0px 45px;
     font-size: 45px;
   }
   
