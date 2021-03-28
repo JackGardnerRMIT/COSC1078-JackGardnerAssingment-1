@@ -1,0 +1,150 @@
+/*
+StyleSheet
+style.css
+Last modified: 28/3/2020
+@author: jack gardner
+*/
+
+/*
+Body
+*/
+
+html{
+    background-color: #031321;
+  }
+  
+  body{
+      background: #031321;
+      font-family: 'Times New Roman';
+      text-align: center; 
+      color: #2196f3;
+  }
+  
+  /* 
+  index divs
+  */
+  
+  #leftbox1{ 
+    float: left;
+    text-align: left; 
+    width: 45%; 
+    height: 600px;
+    padding: 10px 10px;
+    margin: 10px;
+    border: 3px solid #2196f3; 
+  } 
+
+  #leftbox2{ 
+    float: left;
+    text-align: left; 
+    width: 45%; 
+    height: 600px;
+    padding: 10px 10px;
+    margin: 10px;
+    border: 3px solid #2196f3; 
+  } 
+
+  #leftbox3{ 
+    float: left;
+    text-align: left; 
+    width: 45%; 
+    height: 975px;
+    padding: 10px 10px;
+    margin: 10px;
+    border: 3px solid #2196f3; 
+  }
+
+  .floating-left{
+    float: left;
+    text-align: left;
+    padding: 10px 10px;
+  }
+ 
+  #rightbox{ 
+    float: right;
+    width: 45%;
+    padding: 10px 10px;
+    margin: 10px;
+  }
+  
+  /* 
+  Top bar
+  */
+  
+  .topbar{
+    width: 100%;
+    background-color: #031321;
+    overflow: auto;
+  }
+  
+  .topbar a{
+    float: left;
+    text-align: center;
+    padding: 0px 5px;
+    color: #2196f3;
+    font-size: 20px;
+  }
+  
+  .topbar a:hover{
+    background-color: #2196f3;
+    color: black;
+  }
+  
+  .topbar a.active{
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  /*
+  Navigation bar
+  */
+    
+  .nav{
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav a{
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 45px 45px;
+    font-size: 45px;
+  }
+  
+  .nav a:hover{
+    background-color: #2196f3;
+    color: black;
+  }
+  
+  .nav a.active{
+    background-color: #2196f3;
+    color: white;
+  }
+
+  /* 
+  Collapsible
+  */
+
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #444;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #555;
+  }
